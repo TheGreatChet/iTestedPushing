@@ -1,0 +1,24 @@
+﻿<Application x:Class="demoTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:demoTest"
+             StartupUri="Windows/MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Tw Cen Mt"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="120"/>
+        </Style>
+
+        <Style TargetType="CheckBox"/>
+    </Application.Resources>
+</Application>
